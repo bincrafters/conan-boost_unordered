@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostUnorderedConan(ConanFile):
     name = "boost_unordered"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-unordered"
+    url = "https://github.com/bincrafters/conan-boost_unordered"
 
     lib_short_names = ["unordered"]
     is_header_only = True

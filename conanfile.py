@@ -15,7 +15,6 @@ class BoostUnorderedConan(ConanFile):
     def package_id_additional(self):
         self.info.header_only()
 
-    # TODO: functional, iterator
     requires = (
         "boost_assert/1.67.0@bincrafters/testing",
         "boost_config/1.67.0@bincrafters/testing",

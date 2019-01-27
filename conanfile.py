@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.68.0@bincrafters/testing")
 
 class BoostUnorderedConan(base.BoostBaseConan):
     name = "boost_unordered"
+    version = "1.68.0"
     url = "https://github.com/bincrafters/conan-boost_unordered"
     lib_short_names = ["unordered"]
     header_only_libs = ["unordered"]

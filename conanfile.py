@@ -4,26 +4,9 @@
 from conans import python_requires
 
 
-base = python_requires("boost_base/1.69.0@bincrafters/testing")
+base = python_requires("boost_base/2.0.0@bincrafters/testing")
+
 
 class BoostUnorderedConan(base.BoostBaseConan):
     name = "boost_unordered"
-    version = "1.69.0"
-    url = "https://github.com/bincrafters/conan-boost_unordered"
-    lib_short_names = ["unordered"]
-    header_only_libs = ["unordered"]
-    b2_requires = [
-        "boost_assert",
-        "boost_config",
-        "boost_container",
-        "boost_container_hash",
-        "boost_core",
-        "boost_detail",
-        "boost_move",
-        "boost_predef",
-        "boost_preprocessor",
-        "boost_smart_ptr",
-        "boost_throw_exception",
-        "boost_tuple",
-        "boost_type_traits"
-    ]
+    version = "1.70.0"
